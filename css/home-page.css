@@ -1,0 +1,53 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+.category {
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.category h3 {
+    color: #aaa;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.category ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.category li {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #333;
+    cursor: pointer;
+    transition: color 0.2s ease;
+}
+
+.category li:hover {
+    color: #007bff;
+}
+
+.icon {
+    width: 24px;
+    text-align: center;
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+main {
+    margin-top: 80px; /* Adjust for fixed navbar */
+}

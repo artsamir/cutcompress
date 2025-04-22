@@ -1,0 +1,29 @@
+#pdf-canvas {
+    border: 2px solid #ccc;
+}
+
+#drop-zone {
+    border: 2px dashed #ccc;
+}
+
+.text-overlay {
+    position: absolute;
+    cursor: pointer;
+}
+
+.text-overlay:hover {
+    background: rgba(255, 0, 0, 0.2);
+}
+
+.new-text {
+    border: 1px solid #000;
+    padding: 2px;
+}
+
+#canvas-container {
+    position: relative;
+}
+
+main {
+    margin-top: 80px; /* Adjust for fixed navbar */
+}
