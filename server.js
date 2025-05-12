@@ -9,6 +9,6 @@ const express = require('express');
      // Serve node_modules for local libraries
      app.use('/node_modules', express.static(path.join(__dirname, 'node_modules')));
 
-     app.listen(port, () => {
-         console.log(`Server running at http://localhost:${port}`);
-     });
+     app.listen(port, '0.0.0.0', () => {
+        console.log(`Server running at http://0.0.0.0:${port}`);
+    });
